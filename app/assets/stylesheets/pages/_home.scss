@@ -1,155 +1,319 @@
-// Specific CSS for your home-page
-.wrapper {
-  position: relative;
-  max-width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 5%;
-  padding-left: 10%;
+// iPhone
+@media(max-width: 480px) {
+  .wrapper {
+    position: relative;
+    max-width: 90%;
+    margin-right: 0px;
+    /* margin-left: auto; */
+    padding-right: 1%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .section-left {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .content-main {
+    padding-top: 38%;
+    width: 100%;
+    margin-right: 26px;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    position: relative;
+    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.9em;
+    font-weight: 400;
+  }
+
+  .section-right {
+    display: flex;
+    width: 100%;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+
+  .content-right {
+    text-align: left;
+  }
+
+  .content-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .content-link {
+    position: relative;
+    z-index: 100;
+    display: block;
+    border: 0px solid #000;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
+    font-family: 'Grandslang roman', sans-serif;
+    color: #1a1919;
+    font-size: 14vw;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
-.section-left {
-  position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 25%;
-  height: 100vh;
-  left: 300px;
-  bottom: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+@media(min-width: 481px) {
+  .wrapper {
+    position: relative;
+    max-width: 90%;
+    margin-right: 0px;
+    /* margin-left: auto; */
+    padding-right: 1%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .section-left {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .content-main {
+    padding-top: 38%;
+    margin-right: 120px;
+    width: 100%;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.75em;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    position: relative;
+    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.9em;
+    font-weight: 400;
+  }
+
+  .section-right {
+    display: flex;
+    width: 100%;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+
+  .content-right {
+    text-align: left;
+  }
+
+  .content-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .content-link {
+    position: relative;
+    z-index: 100;
+    display: block;
+    border: 0px solid #000;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
+    font-family: 'Grandslang roman', sans-serif;
+    color: #1a1919;
+    font-size: 14vw;
+    line-height: 1.1em;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
-.content-main {
-  margin-left: -10%;
-  padding-top: 90%;
+// iPad
+@media(min-width: 768px) {
+
+  .wrapper {
+    position: relative;
+    max-width: 90%;
+    margin-right: 0px;
+    /* margin-left: auto; */
+    padding-right: 1%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-left {
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-main {
+    /* margin-left: -31%; */
+    padding-top: 33%;
+    width: 100%;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.75em;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    position: relative;
+    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.9em;
+    font-weight: 400;
+  }
+
+  .section-right {
+    /* position: relative; */
+    /* left: auto; */
+    /* top: 0%; */
+    /* right: 0%; */
+    /* bottom: 0%; */
+    display: flex;
+    width: 100%;
+    /* height: 90vh; */
+    padding-top: 5vh;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+
+  .content-right {
+    padding-top: 10%;
+    /* padding-left: 6%; */
+    text-align: left;
+  }
+
+  .content-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .content-link {
+    position: relative;
+    z-index: 100;
+    display: block;
+    border: 0px solid #000;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
+    font-family: 'Grandslang roman', sans-serif;
+    color: #1a1919;
+    font-size: 14vw;
+    line-height: 1.1em;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
-.intro-header {
-  overflow: hidden;
-  margin-bottom: 2vh;
-  padding-top: 10%;
+// Laptops
+@media(min-width: 1024px) {
+
 }
 
-.swipe-up{
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.header {
-  position: relative;
-  margin-top: 0px;
-  margin-bottom: 0vh;
-  font-family: 'Grandslang roman', sans-serif;
-  font-size: 20px;
-  line-height: 1.75em;
-  font-weight: 500;
-  text-align: left;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
-
-.intro-description {
-  display: block;
-  overflow: hidden;
-}
-
-.description {
-  position: relative;
-  max-width: 80%;
-  margin-right: 0px;
-  margin-left: 0px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  line-height: 1.9em;
-  font-weight: 400;
+@media(min-width: 1024px) {
 }
 
 
-.section-right {
-  position: relative;
-  left: auto;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 65%;
-  height: 90vh;
-  padding-top: 5vh;
-  float: right;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  text-align: center;
-}
-
-.content-right {
-  padding-top: 10%;
-  padding-left: 6%;
-  text-align: left;
-}
-
-.content-item {
-  position: relative;
-  display: inline-block;
-  padding-right: 5%;
-  text-align: right;
-}
-
-.content-link {
-  position: relative;
-  z-index: 100;
-  display: block;
-  border: 0px solid #000;
-  -webkit-transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  font-family: 'Grandslang roman', sans-serif;
-  color: #1a1919;
-  font-size: 11vw;
-  line-height: 0.95em;
-  font-weight: 300;
-  text-align: left;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 .content-link:hover {
   color: #1a1919;
