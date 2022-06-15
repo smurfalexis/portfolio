@@ -1,3 +1,22 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  background-color: #EEE7E1;
+  color: #1A1919;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,8 +32,3 @@
  *= require_tree .
  *= require_self
  */
-
- body {
-  background-color: #eee7e1;
-  color: #1a1919;
- }
