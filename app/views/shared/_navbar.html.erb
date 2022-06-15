@@ -1,0 +1,34 @@
+<% if current_page?('/') %>
+  <div class="nav-left">
+    <div class="nav-left-item">
+      <a href="https://www.linkedin.com/in/alexandra-hedman-023aa0ab/" class="nav-left-link">LI</a>
+    </div>
+     <div class="nav-left-item">
+      <a href="https://github.com/smurfalexis" class="nav-left-link">GH</a>
+    </div>
+    <div class="nav-line black-line"></div>
+    <div class="nav-left-item nav-year">
+      <div class="year">/2022</div>
+    </div>
+  </div>
+<% elsif current_page?('/about')%>
+    <div class="nav-left">
+    <div class="nav-left-item">
+      <a href="/" class="nav-left-link">HOME</a>
+    </div>
+    <div class="nav-line black-line"></div>
+    <div class="nav-left-item nav-year">
+      <div class="year">/2022</div>
+    </div>
+  </div>
+<% else %>
+    <div class="nav-left">
+     <div class="nav-left-item">
+      <a href="/" class="nav-left-link is-white">HOME</a>
+    </div>
+    <div class="nav-line white-line"></div>
+    <div class="nav-left-item nav-year">
+      <div class="year is-white">/2022</div>
+    </div>
+  </div>
+<% end %>

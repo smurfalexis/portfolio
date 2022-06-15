@@ -1,0 +1,48 @@
+.content-contact {
+  margin-left: -10%;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.header.header-large {
+  font-family: 'Grandslang roman', sans-serif;
+  font-size: 14vw;
+  line-height: 1em;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #EEE7E1;
+
+}
+
+.header {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 1.75em;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.description-contact {
+  margin-left: 14px;
+}
+
+.link:hover {
+  text-decoration: line-through;
+}
+
+.link-white {
+  color: #EEE7E1
+}
+
+.link-white:hover {
+  color: #EEE7E1
+}

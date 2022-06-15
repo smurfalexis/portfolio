@@ -1,0 +1,11 @@
+<% if current_page?('/projects') || current_page?('/contact') %>
+  <body class="bg-black">
+    <%= render "shared/navbar" %>
+    <%= yield %>
+  </body>
+<% else %>
+  <body class="bg-white">
+    <%= render "shared/navbar" %>
+    <%= yield %>
+  </body>
+<% end %>

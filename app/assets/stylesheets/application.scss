@@ -13,9 +13,17 @@
 @import "pages/index";
 
 body {
-  background-color: #EEE7E1;
-  color: #1A1919;
   font-family: "Montserrat", sans-serif;
+}
+
+.bg-white {
+  background-color: #eee7e1 !important;
+  color: #1A1919 !important;
+}
+
+.bg-black {
+  background-color: #1A1919 !important;
+  color: #EEE7E1 !important;
 }
 
 /*
