@@ -25,7 +25,7 @@
   .content-main {
     padding-top: 38%;
     width: 100%;
-    margin-right: 26px;
+    margin-right: 16px;
   }
 
   .header {
@@ -33,7 +33,7 @@
     margin-top: 0px;
     margin-bottom: 0vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 1.75em;
     font-weight: 500;
     text-align: left;
@@ -88,7 +88,7 @@
     transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
     font-family: 'Grandslang roman', sans-serif;
     color: #1a1919;
-    font-size: 14vw;
+    font-size: 16vw;
     line-height: 1.2em;
     font-weight: 300;
     text-align: left;
@@ -97,6 +97,7 @@
   }
 }
 
+// Samsung
 @media(min-width: 481px) {
   .wrapper {
     position: relative;
@@ -106,7 +107,7 @@
     padding-right: 1%;
     padding-left: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
   }
@@ -186,7 +187,7 @@
     transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
     font-family: 'Grandslang roman', sans-serif;
     color: #1a1919;
-    font-size: 14vw;
+    font-size: 10vw;
     line-height: 1.1em;
     font-weight: 300;
     text-align: left;
@@ -307,10 +308,219 @@
 
 // Laptops
 @media(min-width: 1024px) {
+  .wrapper {
+    position: relative;
+    max-width: 98%;
+    margin-right: 0px;
+    /* margin-left: auto; */
+    padding-right: 0px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 
+  .section-left {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-main {
+    padding-bottom: 5%;
+    width: 128%;
+    margin-right: 11px;
 }
 
-@media(min-width: 1024px) {
+
+  .header {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px !important;
+    line-height: 1.75em;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    position: relative;
+    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 1.9em;
+    font-weight: 400;
+  }
+
+  .section-right {
+    /* position: relative; */
+    /* left: auto; */
+    /* top: 0%; */
+    /* right: 0%; */
+    /* bottom: 0%; */
+    display: flex;
+    width: 100%;
+    /* height: 90vh; */
+    padding-top: 10vh;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+
+  .content-right {
+    padding-top: 0%;
+    /* padding-left: 6%; */
+    text-align: left;
+  }
+
+  .content-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .content-link {
+    position: relative;
+    z-index: 100;
+    display: block;
+    border: 0px solid #000;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
+    font-family: 'Grandslang roman', sans-serif;
+    color: #1a1919;
+    font-size: 10vw;
+    line-height: 1.1em;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+// Desktop
+@media(min-width: 1201px) {
+  .wrapper {
+    position: relative;
+    max-width: 98%;
+    margin-right: 0px;
+    /* margin-left: auto; */
+    padding-right: 0px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .section-left {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-main {
+    padding-bottom: 18%;
+    width: 190%;
+}
+
+
+  .header {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+    line-height: 1.75em;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    position: relative;
+    max-width: 61%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.9em;
+    font-weight: 400;
+  }
+
+  .section-right {
+    /* position: relative; */
+    /* left: auto; */
+    /* top: 0%; */
+    /* right: 0%; */
+    /* bottom: 0%; */
+    display: flex;
+    width: 100%;
+    /* height: 90vh; */
+    padding-top: 10vh;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+  }
+
+  .content-right {
+    padding-top: 7%;
+    /* padding-left: 6%; */
+    text-align: left;
+  }
+
+  .content-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .content-link {
+    position: relative;
+    z-index: 100;
+    display: block;
+    border: 0px solid #000;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
+    font-family: 'Grandslang roman', sans-serif;
+    color: #1a1919;
+    font-size: 9vw;
+    line-height: 1.1em;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
 
