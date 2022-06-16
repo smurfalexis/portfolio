@@ -89,7 +89,7 @@
 
   .nav-left-item {
     margin-bottom: 40px;
-    padding-right: 15px;
+    padding-right: 30px;
     padding-left: 20px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -118,7 +118,7 @@
   .nav-line {
     width: 2px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 80px;
     background-color: #1a1919;
   }
@@ -150,6 +150,7 @@
 
   .year {
     font-size: 14px;
+    width: 100px;
   }
 }
 
@@ -164,14 +165,16 @@
 }
 
 
-
-
-
-
-
-
 // Contact
 
 .is-white {
   color: #eee7e1;
+}
+
+.is-white:hover {
+  color: #eee7e1;
+}
+
+.white-line {
+  background-color: #eee7e1;
 }

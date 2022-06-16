@@ -19,11 +19,31 @@ body {
 .bg-white {
   background-color: #eee7e1 !important;
   color: #1A1919 !important;
+
+  ::selection {
+    background: #1A1919  !important;
+    color: #eee7e1 !important;
+  }
+
+  ::-moz-selection {
+    background: #1A1919  !important;
+    color: #eee7e1 !important;
+  }
 }
 
 .bg-black {
   background-color: #1A1919 !important;
   color: #EEE7E1 !important;
+
+  ::selection {
+    background: #eee7e1  !important;
+    color: #1A1919 !important;
+  }
+
+  ::-moz-selection {
+    background: #eee7e1  !important;
+    color: #1A1919 !important;
+  }
 }
 
 .black {
