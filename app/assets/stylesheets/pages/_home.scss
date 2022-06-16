@@ -307,7 +307,7 @@
 }
 
 // Laptops
-@media(min-width: 1024px) {
+@media(min-width: 1020px) {
   .wrapper {
     position: relative;
     max-width: 98%;
@@ -332,8 +332,8 @@
 
   .content-main {
     padding-bottom: 5%;
-    width: 128%;
     margin-right: 11px;
+    margin-left: 289px;
 }
 
 
@@ -370,7 +370,7 @@
     display: flex;
     width: 100%;
     /* height: 90vh; */
-    padding-top: 10vh;
+    padding-top: 10vh !important;
     float: right;
     flex-direction: column;
     justify-content: center;
