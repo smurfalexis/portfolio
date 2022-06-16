@@ -1,0 +1,256 @@
+.project-background {
+  position: absolute;
+  left: 50%;
+  width: 88%;
+  height: 95vh;
+  background-color: #1a1919;
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+
+.content-project {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 95vh;
+  padding-top: 20%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #eee7e1;
+}
+
+.header-mask-large {
+  padding: 5% 1%;
+}
+
+.header-mask {
+  overflow: hidden;
+  margin-bottom: 2vh;
+  padding-top: 5%;
+}
+
+.wrapper-small {
+  max-width: 65%;
+  padding-left: 5%;
+}
+
+.work-container {
+  margin-top: 15vh;
+  padding-bottom: 10%;
+}
+
+.description-mask {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.description-large {
+  max-width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Grandslang roman', sans-serif;
+  font-size: 50px;
+  line-height: 1.3em;
+  font-weight: 300;
+}
+
+.work-details {
+  max-width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: sp;
+}
+
+.w-row:before {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+
+.w-row:before, .w-row:after {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+
+.w-row:after {
+  clear: both;
+}
+
+.w-col-4 {
+  width: 30.333333%;
+}
+
+.w-col {
+  position: relative;
+  /* float: left; */
+  /* width: 100%; */
+  min-height: 1px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w-col-5 {
+  width: 50.666667%;
+}
+
+.w-col-3 {
+  width: 25%;
+}
+
+// work-content
+.work-content {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 13px;
+  text-align: left;
+}
+
+.w-richtext:before, .w-richtext:after {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+
+.w-richtext:after {
+  clear: both;
+}
+
+
+.content-footer {
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.call-to-action {
+  margin: 1em 0em;
+  font-size: 32px;
+}
+
+.w-richtext figure.w-richtext-align-fullwidth {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  clear: both;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-content figure {
+  box-shadow: 0 30px 60px rgba(0,0,0, 0.1);
+  margin-bottom: 8em;
+}
+
+.w-richtext figure {
+  position: relative;
+  max-width: 60%;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 10px;
+}
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.button {
+  padding: 20px 60px;
+  border-radius: 50px;
+  background-color: #1a1919;
+  -webkit-transition: padding 250ms ease-in-out;
+  transition: padding 250ms ease-in-out;
+  font-family: 'Grandslang roman', sans-serif;
+  color: #eee7e1;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #eee7e1;
+  padding: 20px 120px;
+}
+
+.header-small {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-top: 24px;
+  padding-bottom: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+.description-static {
+  position: relative;
+  display: block;
+  max-width: 90%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.9em;
+  font-weight: 400;
+  text-decoration: none !important;
+  color: #1a1919;
+}
+
+.link-block {
+  color: #1a1919;
+  text-decoration: none;
+}
+.link-block:hover {
+  color: #1a1919;
+  border-bottom: 2px solid #1a1919;
+}
+
+.wrapper-bottom {
+  width: 100%;
+}
+
+.img-project {
+  width: 100%;
+  margin-bottom: 100px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.4);
+
+}
