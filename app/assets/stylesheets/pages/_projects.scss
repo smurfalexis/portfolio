@@ -1,0 +1,279 @@
+// Samsung
+@media(max-width: 374px) {
+  .content-main {
+    padding-bottom: 0%;
+    margin-right: 0px;
+    padding-top: 35% !important;
+  }
+
+  .description-projects {
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 12vw;
+    }
+
+    .header-small {
+      text-align: center;
+      font-size: 13px !important;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 37%;
+      margin-top: 35px;
+    }
+}
+
+// iPhone
+@media(min-width: 375px) {
+  .content-main {
+    padding-bottom: 0%;
+    margin-right: 0px;
+    padding-top: 35% !important;
+  }
+
+  .description-projects {
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 12vw;
+    }
+
+    .header-small {
+      text-align: center;
+      font-size: 13px !important;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 37%;
+      margin-top: 35px;
+    }
+}
+
+// iPad
+@media(min-width: 768px) {
+  .content-main {
+    padding-bottom: 0%;
+    margin-right: 0px;
+    margin-left: 620px;
+    width: 200%;
+    padding-top: 35% !important;
+  }
+
+  .description-projects {
+    max-width: 46%;
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 12vw;
+    }
+
+    .header-small {
+      margin-left: 76px;
+      font-size: 14px !important;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 37%;
+      margin-top: 35px;
+    }
+}
+
+// Laptops
+@media(min-width: 1020px) {
+  .content-main {
+    padding-bottom: 5%;
+    margin-right: 0px;
+    margin-left: 300px;
+    width: 177%;
+    padding-top: 19% !important;
+  }
+
+  .description-projects {
+    max-width: 46%;
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 9vw;
+    }
+
+    .header-small {
+      margin-left: 90px;
+      font-size: 14px !important;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 37%;
+      margin-top: 35px;
+    }
+}
+
+// Laptop
+@media(min-width: 1201px) {
+  .content-main {
+    padding-bottom: 5%;
+    margin-right: 0px;
+    margin-left: 442px;
+    width: 177%;
+    padding-top: 19% !important;
+  }
+
+  .description-projects {
+    max-width: 46%;
+    font-size: 14px;
+  }
+
+  .project-name {
+    font-size: 9vw;
+    }
+
+    .header-small {
+      margin-left: 25px;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 32%;
+      margin-top: 51px;
+    }
+}
+
+@media(min-width: 1280px){
+
+  .content-main {
+    padding-bottom: 5%;
+    margin-right: 0px;
+    margin-left: 442px;
+    width: 177%;
+    padding-top: 19% !important;
+  }
+
+  .description-projects {
+    max-width: 46%;
+    font-size: 14px;
+  }
+
+  .project-name {
+    font-size: 9vw;
+    }
+
+    .header-small {
+      margin-left: 25px;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 40%;
+      margin-top: 51px;
+    }
+}
+
+@media(min-width: 1400px) {
+  .content-main {
+    padding-bottom: 5%;
+    margin-right: 0px;
+    margin-left: 442px;
+    width: 177%;
+    padding-top: 19% !important;
+  }
+
+  .description-projects {
+    max-width: 46%;
+    font-size: 14px;
+  }
+
+  .project-name {
+    font-size: 9vw;
+    }
+
+    .header-small {
+      margin-left: 25px;
+    }
+
+    .project-main {
+      margin-top: 30px !important;
+      margin-left: 50px !important;
+    }
+
+    .section-projects {
+      padding-bottom: 28%;
+      margin-top: 51px;
+    }
+}
+
+
+// Monitor
+@media(min-width: 1600px) {
+  .project-name {
+  font-size: 7vw;
+  }
+
+  .header-small {
+    margin-left: 25px;
+  }
+
+  .project-main {
+    margin-top: 30px !important;
+  }
+
+  .section-projects {
+    padding-bottom: 34%;
+    margin-top: 51px;
+  }
+
+  .description-projects {
+    max-width: 61%;
+  }
+
+  .content-main {
+    margin-left: 0px;
+    width: 150%;
+  }
+
+}
+
+
+.project-name {
+  padding-bottom: 2%;
+  color: #eee7e1;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+.project-name:hover {
+  color: #eee7e1;
+  font-style: italic;
+
+}
