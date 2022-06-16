@@ -10,6 +10,8 @@ class PagesController < ApplicationController
 
   def projects
 
+  end
 
+  def sgmi
   end
 end
