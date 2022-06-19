@@ -77,7 +77,6 @@
   margin-left: auto;
   padding-top: 40px;
   display: flex;
-  justify-content: sp;
 }
 
 .w-row:before {
@@ -110,17 +109,7 @@
   align-items: center;
 }
 
-.col-role {
-  width: 30.333333%;
-}
 
-.col-respo {
-  width: 50.666667%;
-}
-
-.col-url {
-  width: 25%;
-}
 
 // work-content
 .work-content {
@@ -150,6 +139,9 @@
 .content-footer {
   padding-bottom: 20%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .call-to-action {
@@ -265,7 +257,7 @@ figure {
   border: none;
 }
 
-.h2-project {
+.h3-project {
 text-align: center;
 margin: 30px 0px;
 width: fit-content;
@@ -276,4 +268,68 @@ width: fit-content;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+
+// iPad
+@media(min-width: 768px) {
+
+  .project-black-card {
+    height: 68vh;
+  }
+
+  .project-black-card-name {
+    height: 65vh;
+    margin-bottom: 10vh;
+  }
+
+  .project-name-large {
+    margin-top: 22vh;
+    margin-bottom: 25vh;
+    margin-bottom: 0vh;
+    font-size: 15vw !important;
+  }
+
+  .description-large {
+    font-size: 41px;
+  }
+  .project-container {
+    margin-top: 0vh;
+  }
+
+  .project-details {
+    max-width: 90%;
+  }
+
+  .img-project {
+    width: 90%;
+    margin: 50px 0px;
+  }
+
+  .img-project-medium {
+    margin: 50px 0px;
+  }
+
+  .project-text {
+    width: 90%;
+  }
+}
+
+@media(min-width: 769px) {
+  .project-black-card {
+    height: 72vh;
+
+  }
+
+  .project-black-card-name {
+    margin-bottom: 15vh;
+  }
+
+  .project-name-large {
+    margin-top: 0px !important;
+  }
+  .description-large {
+    margin-bottom: 48px;
+  }
 }
