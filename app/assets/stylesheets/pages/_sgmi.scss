@@ -434,25 +434,25 @@ width: fit-content;
   }
 
   .project-name-large {
-    margin-top: 22vh;
+    margin-top: -30vh;
     margin-bottom: 25vh;
     margin-bottom: 0vh;
     font-size: 15vw !important;
   }
 
   .description-large {
-    font-size: 41px;
+    font-size: 30px;
   }
   .project-container {
     margin-top: 0vh;
   }
 
   .project-details {
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .img-project {
-    width: 90%;
+    width: 85%;
     margin: 50px 0px;
   }
 
@@ -461,33 +461,16 @@ width: fit-content;
   }
 
   .project-text {
-    width: 90%;
+    width: 85%;
   }
 }
 
-@media(min-width: 769px) {
-  .project-black-card {
-    height: 72vh;
-
-  }
-
-  .project-black-card-name {
-    margin-bottom: 15vh;
-  }
-
-  .project-name-large {
-    margin-top: 0px !important;
-  }
-  .description-large {
-    margin-bottom: 48px;
-  }
-}
 
 // Laptops
 @media(min-width: 1020px) {
   .project-name-large {
     font-size: 11vw !important;
-    margin-top: 50% !important;
+    margin-top: 30% !important;
   }
 
   .project-black-card {
@@ -541,4 +524,22 @@ width: fit-content;
   .project-name-large {
     margin-top: 30% !important;
   }
+}
+
+// Monitor
+@media(min-width: 1600px) {
+
+  .project-name-large {
+    font-size: 11vw !important;
+    margin-top: 15% !important;
+  }
+
+  .img-project {
+    width: 100% !important;
+  }
+
+  .project-text {
+    width: 100% !important;
+  }
+
 }
