@@ -70,10 +70,9 @@
   font-weight: 300;
   position: relative;
   font-family: "Montserrat", sans-serif;
-
 }
 
-.work-details {
+.project-details {
   max-width: 75%;
   margin-right: auto;
   margin-left: auto;
@@ -104,11 +103,7 @@
   clear: both;
 }
 
-.w-col-4 {
-  width: 30.333333%;
-}
-
-.w-col {
+.project-details-column{
   position: relative;
   min-height: 1px;
   display: flex;
@@ -116,11 +111,15 @@
   align-items: center;
 }
 
-.w-col-5 {
+.col-role {
+  width: 30.333333%;
+}
+
+.col-respo {
   width: 50.666667%;
 }
 
-.w-col-3 {
+.col-url {
   width: 25%;
 }
 
@@ -210,7 +209,7 @@ figure {
   padding: 20px 120px;
 }
 
-.header-small {
+.header-detail {
   display: inline-block;
   margin-bottom: 16px;
   padding-top: 24px;
@@ -226,7 +225,7 @@ figure {
   margin-left: 0px;
 }
 
-.description-static {
+.col-detail {
   position: relative;
   display: block;
   max-width: 90%;
