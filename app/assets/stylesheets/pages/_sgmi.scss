@@ -536,3 +536,9 @@ width: fit-content;
     font-size: 50px;
   }
 }
+
+@media(min-width: 1400px) {
+  .project-name-large {
+    margin-top: 30% !important;
+  }
+}
