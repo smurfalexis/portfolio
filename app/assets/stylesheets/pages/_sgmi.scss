@@ -482,3 +482,57 @@ width: fit-content;
     margin-bottom: 48px;
   }
 }
+
+// Laptops
+@media(min-width: 1020px) {
+  .project-name-large {
+    font-size: 11vw !important;
+    margin-top: 50% !important;
+  }
+
+  .project-black-card {
+    height: 95vh;
+  }
+
+  .project-black-card-name {
+    height: 95vh;
+    padding-top: 10%;
+  }
+
+  .project-details {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+
+  .img-project {
+    width: 85% !important;
+  }
+
+  .project-text {
+    width: 85% !important;
+    font-size: 14px;
+  }
+
+  .col-role {
+    width: 30.333333%;
+  }
+
+  .col-respo {
+    width: 50.666667%;
+  }
+
+  .col-url {
+    width: 25%;
+  }
+
+  .description-large {
+    max-width: 75%;
+    font-size: 50px;
+  }
+}
