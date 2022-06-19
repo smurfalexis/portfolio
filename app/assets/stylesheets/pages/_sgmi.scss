@@ -270,6 +270,21 @@ width: fit-content;
   align-items: center;
 }
 
+// Galaxy fold
+@media(max-width: 280px) {
+  .description-large {
+    font-size: 18px !important;
+  }
+
+  .col-detail {
+    font-size: 12px !important;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
+
 // Phones
 @media(max-width: 415px) {
   .project-black-card {
