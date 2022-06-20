@@ -185,3 +185,49 @@
     padding-top: 50%;
     }
 }
+
+// Laptops
+@media(min-width: 1020px) {
+  .home-wrapper {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .home-section-left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content-left {
+    padding-bottom: 5%;
+}
+
+  .name {
+    font-size: 16px !important;
+  }
+
+  .home-description {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .home-section-right {
+    padding-top: 22vh !important;
+  }
+
+  .home-content-right {
+    padding-top: 0%;
+    text-align: left;
+  }
+
+  .home-link {
+    font-size: 10vw;
+    line-height: 1.1em;
+  }
+}
