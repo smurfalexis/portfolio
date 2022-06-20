@@ -104,11 +104,7 @@
 // Samsung
 @media(min-width: 481px) {
   .home-wrapper {
-    padding-right: 1%;
-    padding-left: 10%;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .home-section-left {
@@ -118,8 +114,8 @@
   }
 
   .home-content-left {
-    padding-top: 38%;
-    margin-right: 120px;
+    padding-top: 35%;
+    margin-bottom: 10%;
   }
 
   .name {
@@ -142,4 +138,50 @@
   }
 }
 
-// Phone sizes looks good. Now remove repetitive code.
+// iPad
+@media(min-width: 768px) {
+
+  .home-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  .home-content-left {
+    padding-top: 26%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .home-description {
+    font-size: 18px;
+  }
+
+  .home-content-right {
+    padding-top: 10%;
+  }
+
+  .home-link-div {
+    position: relative;
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .home-link {
+    font-size: 14vw;
+    font-weight: 300;
+  }
+}
+
+// iPad large
+@media(min-width: 800px) {
+  .home-content-left {
+    padding-top: 50%;
+    }
+}
