@@ -231,7 +231,7 @@
     line-height: 1.1em;
   }
 
-  .content-link:hover {
+  .home-link:hover {
     font-style: italic;
   }
 }
@@ -258,10 +258,6 @@
     padding-top: 10vh;
   }
 
-  .home-content-right {
-    padding-top: 7%;
-  }
-
   .home-link-div {
     display: inline-block;
     padding-right: 5%;
@@ -271,4 +267,18 @@
   .home-link {
     font-size: 9vw;
   }
+}
+
+// Monitor
+@media(min-width: 1201px) {
+  .home-content-left {
+    padding-bottom: 20%;
+  }
+
+  .name {
+    font-size: 22px !important;
+  }
+
+  .home-description {
+    font-size: 16px;}
 }
