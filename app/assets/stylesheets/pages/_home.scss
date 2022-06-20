@@ -230,4 +230,45 @@
     font-size: 10vw;
     line-height: 1.1em;
   }
+
+  .content-link:hover {
+    font-style: italic;
+  }
+}
+
+// Laptop Macbook
+@media(min-width: 1201px) {
+
+  .home-content-left {
+    padding-bottom: 12%;
+    width: 100%;
+}
+
+  .name {
+    font-size: 18px !important;
+  }
+
+  .home-description {
+    max-width: 61%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .home-section-right {
+    padding-top: 10vh;
+  }
+
+  .home-content-right {
+    padding-top: 7%;
+  }
+
+  .home-link-div {
+    display: inline-block;
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  .home-link {
+    font-size: 9vw;
+  }
 }
