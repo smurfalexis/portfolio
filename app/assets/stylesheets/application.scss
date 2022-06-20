@@ -16,7 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
+.container-all {
   max-width: 90% !important;
   margin: 0% 5%;
   padding: 0%
@@ -24,7 +24,7 @@ body {
 
 .bg-white {
   background-color: #eee7e1 !important;
-  color: #1A1919 !important;
+  color: #1a1919 !important;
 
   ::selection {
     background: #1A1919  !important;
@@ -34,6 +34,14 @@ body {
   ::-moz-selection {
     background: #1A1919  !important;
     color: #eee7e1 !important;
+  }
+
+  a {
+    color: #1a1919 !important;
+  }
+
+  a:hover {
+    color: #1a1919 !important;
   }
 }
 
