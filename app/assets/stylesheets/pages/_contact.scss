@@ -1,3 +1,11 @@
+
+.contact-wrapper {
+  width: 70% !important;
+  margin: 0% 15% !important;
+  padding: 0%;
+  display: flex;
+}
+
 // iPhone
 @media(max-width: 767px) {
   .content-contact {
@@ -26,7 +34,7 @@
     margin-bottom: 0vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.75em;
-    font-weight: 500;
+    font-weight: 300;
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -68,7 +76,7 @@
     margin-bottom: 0vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.75em;
-    font-weight: 500;
+    font-weight: 300;
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -111,7 +119,7 @@
     margin-bottom: 0vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.75em;
-    font-weight: 500;
+    font-weight: 300;
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -153,7 +161,7 @@
     margin-bottom: 0vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.75em;
-    font-weight: 500;
+    font-weight: 300;
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
