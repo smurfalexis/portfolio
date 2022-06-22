@@ -85,7 +85,7 @@
 }
 
 // // iPad
-@media(min-width: 768px) {
+@media(min-width: 540px) {
 
   .about-wrapper {
     width: 80% !important;
@@ -136,8 +136,13 @@
   .about-description {
     margin-bottom: 2vh;
   }
+}
 
-
+// iPad large
+@media(min-width: 768px) {
+  .about-header {
+    padding-top: 55%;
+  }
 }
 
 // // Laptops
