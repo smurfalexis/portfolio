@@ -183,7 +183,12 @@
 
 // Monitor
 @media(min-width: 1312px) {
+  .about-header {
+    margin-top: 0% !important;
+    padding-top: 12%;
+  }
 
-
-
+  .description-long {
+    max-width: 66%;
+  }
 }
