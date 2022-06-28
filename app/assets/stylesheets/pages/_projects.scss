@@ -52,7 +52,6 @@
 
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -84,7 +83,6 @@
 
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -98,7 +96,6 @@
   .content-main {
     padding-bottom: 0%;
     margin-right: 0px;
-    margin-left: 620px;
     width: 200%;
     padding-top: 35% !important;
   }
@@ -112,14 +109,8 @@
     font-size: 12vw;
     }
 
-    .header-small {
-      margin-left: 76px;
-      font-size: 14px !important;
-    }
-
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -133,7 +124,6 @@
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    margin-left: 300px;
     width: 177%;
     padding-top: 19% !important;
   }
@@ -147,15 +137,8 @@
     font-size: 9vw;
     }
 
-    .header-small {
-      margin-left: 22px;
-      width: 90%;
-      font-size: 14px !important;
-    }
-
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -169,9 +152,8 @@
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    margin-left: 442px;
     width: 177%;
-    padding-top: 19% !important;
+    padding-top: 14% !important;
   }
 
   .description-projects {
@@ -183,13 +165,8 @@
     font-size: 9vw;
     }
 
-    .header-small {
-      margin-left: 25px;
-    }
-
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -203,9 +180,8 @@
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    margin-left: 442px;
     width: 177%;
-    padding-top: 19% !important;
+    padding-top: 14% !important;
   }
 
   .description-projects {
@@ -223,7 +199,6 @@
 
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
@@ -233,12 +208,26 @@
 }
 
 @media(min-width: 1400px) {
+
+  .projects-wrapper {
+    width: 80% !important;
+    margin: 0% 10% !important;
+    padding-top: 5%;
+  }
+
+  .section-projects {
+    width: 32%;
+  }
+
+  .project-header-small {
+    font-size: 14px !important;
+  }
+
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    margin-left: 442px;
     width: 177%;
-    padding-top: 19% !important;
+    padding-top: 14% !important;
   }
 
   .description-projects {
@@ -250,18 +239,14 @@
     font-size: 9vw;
     }
 
-    .header-small {
-      width: 94%;
-    }
-
     .project-main {
       margin-top: 30px !important;
-      margin-left: 50px !important;
     }
 
     .section-projects {
       padding-bottom: 28%;
       margin-top: 51px;
+      width: 34%;
     }
 }
 
