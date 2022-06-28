@@ -188,12 +188,13 @@ figure {
   -webkit-transition: padding 250ms ease-in-out;
   transition: padding 250ms ease-in-out;
   font-family: 'Grandslang roman', sans-serif;
-  color: #eee7e1;
+  color: #eee7e1 !important;
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none;
 }
+
 
 .button:hover {
   color: #eee7e1;
