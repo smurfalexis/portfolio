@@ -174,13 +174,6 @@
 
 // Macbooks
 @media(min-width: 1400px) {
-
-  .projects-wrapper {
-    width: 80% !important;
-    margin: 0% 10% !important;
-    padding-top: 5%;
-  }
-
   .section-projects {
     width: 32%;
   }
@@ -192,28 +185,27 @@
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    width: 177%;
-    padding-top: 14% !important;
+    padding-top: 38% !important;
   }
 
   .description-projects {
-    max-width: 46%;
+    max-width: 80%;
     font-size: 14px;
   }
 
   .project-name {
     font-size: 9vw;
-    }
+  }
 
-    .project-main {
-      margin-top: 30px !important;
-    }
+  .project-main {
+    margin-top: 30px !important;
+  }
 
-    .section-projects {
-      padding-bottom: 28%;
-      margin-top: 51px;
-      width: 34%;
-    }
+  .section-projects {
+    padding-bottom: 28%;
+    margin-top: 51px;
+    width: 34%;
+  }
 }
 
 
