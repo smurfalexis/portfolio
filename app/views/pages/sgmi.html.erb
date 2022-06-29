@@ -26,15 +26,11 @@
   </div>
 
 
-  <div class="w-richtext">
-    <figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="2876px" style="max-width:2876px">
-      <div>
-        <%= image_tag "sgmi_home.png", class:"img-project" %>
-      </div>
-      <div>
-        <%= video_tag ['sgmi_search.mp4'], controls: false, type: 'video/mp4', autoplay: :autoplay, loop: :loop, muted: :muted, class:"img-project" %>
-      </div>
-    </figure>
+  <div class="project-content-all">
+    <div class="project-images-videos">
+        <%= image_tag "sgmi_home.png", controls: false, type: 'video/mp4', autoplay: true, loop: true, muted: :true, playsinline: :true, class:"img-project" %>
+        <%= video_tag ['sgmi_search.mp4'], controls: false, type: 'video/mp4', controls: false, type: 'video/mp4', autoplay: true, loop: true, muted: :true, playsinline: :true, class:"img-project" %>
+    </div>
     <div class="project-content">
       <h3 class="header-detail h3-project">Background</h3>
       <p class="project-text">SGMI - Solana Is Gonna Make It - was my team's final project during the web development bootcamp at Le Wagon in Munich. I made friends early on with two guys who are high achievers just like me and we started exchanging ideas for the project early on. The idea came out of our mutual interests in NFTs and the Solana blockchain. Solana transactions are super fast and the crypto currency is relatively cheap which makes it possible for the average person to join the NFT space. Because of these benefits, many projects choose to launch their NFT collections on Solana.</p>
@@ -48,24 +44,20 @@
       <p class="project-text">Our solution was a platform where users can connect their wallet and get a clear picture of their wallet's total worth in both Solana and USD. Our speedometer tells how well the wallet is performing i.e. if you have made or lost money on your NFT's from the time you bought them. The user can also see its best performing NFTs and their NFTs with the highest floor price. Further down the page, the user can see its watchlist and all the NFTs that belongs to the connected wallet along with important data such as the current floor price of the collection.</p>
       <p class="project-text">Anyone can go to our website to browse collections and find out more about upcoming drops etc. However, if you're intrested in adding a collection to your watchlist our website will kindly ask you to create an account.</p>
     </div>
-    <figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="2876px" style="max-width:2876px">
-      <div>
-        <%= video_tag ['sgmi_wallet.mp4'], controls: false, type: 'video/mp4', autoplay: :autoplay, loop: :loop, muted: :muted, class:"img-project" %>
-      </div>
-    </figure>
+    <div class="project-images-videos">
+        <%= video_tag ['sgmi_wallet.mp4'], controls: false, type: 'video/mp4', autoplay: true, loop: true, muted: :true, playsinline: :true, class:"img-project" %>
+    </div>
     <div class="project-content">
       <p class="project-text">I'm so extremely proud of our team and what we were able to accomplish in less than two weeks. We proved that big goals are possible to achive with excellent team work. I'm looking so much forward to continue developing the platform together and making it the best perfomance tracking tool for NFT holders.</p>
     </div>
-    <figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="2876px" style="max-width:2876px">
-      <div>
-        <%= video_tag ['sgmi_collection.mp4'], controls: false, type: 'video/mp4', autoplay: :autoplay, loop: :loop, muted: :muted, playsinline: :playsinline, class:"img-project-medium" %>
-      </div>
-    </figure>
+    <div class="project-images-videos">
+      <%= video_tag ['sgmi_collection.mp4'], controls: false, type: 'video/mp4', autoplay: true, loop: true, muted: :true, playsinline: :true, class:"img-project-medium" %>
+    </div>
   </div>
 
-  <div class="wrapper-bottom wf-section">
+  <div class="wrapper-bottom">
     <div class="content-footer">
       <p class="call-to-action">Check it out.</p>
-      <a href="https://www.sgmi.io/" target="_blank" class="button w-button">https://sgmi.io</a>
+      <a href="https://www.sgmi.io/" target="_blank" class="button">https://sgmi.io</a>
     </div>
   </div>
