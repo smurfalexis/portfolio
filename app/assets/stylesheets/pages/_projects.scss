@@ -1,8 +1,7 @@
 .projects-wrapper {
   padding: 0%;
-  display: flex;
-  justify-content: space-between;
 }
+
 .project-name {
   padding-bottom: 2%;
   color: #eee7e1;
@@ -31,6 +30,12 @@
 
 // Samsung
 @media(max-width: 374px) {
+  .projects-wrapper {
+    width: 82% !important;
+    margin: 0% 9% !important;
+    padding-top: 5%;
+  }
+
   .content-main {
     padding-bottom: 0%;
     margin-right: 0px;
@@ -42,22 +47,21 @@
   }
 
   .project-name {
-    font-size: 12vw;
+    font-size: 16vw;
     }
 
-    .header-small {
-      text-align: center;
-      font-size: 13px !important;
-    }
+  .project-header-small {
+    font-size: 10px;
+  }
 
-    .project-main {
-      margin-top: 30px !important;
-    }
+  .project-main {
+    margin-top: 30px !important;
+  }
 
-    .section-projects {
-      padding-bottom: 37%;
-      margin-top: 35px;
-    }
+  .section-projects {
+    padding-bottom: 37%;
+    margin-top: 35px;
+  }
 }
 
 // iPhone
@@ -121,6 +125,12 @@
 
 // Laptops
 @media(min-width: 1020px) {
+
+  .projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
@@ -207,6 +217,8 @@
     }
 }
 
+
+// Macbooks
 @media(min-width: 1400px) {
 
   .projects-wrapper {
