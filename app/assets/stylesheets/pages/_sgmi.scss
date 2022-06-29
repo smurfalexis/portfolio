@@ -190,12 +190,6 @@ figure {
   text-decoration: none;
 }
 
-
-.button:hover {
-  color: #eee7e1;
-  padding: 20px 120px;
-}
-
 .header-detail {
   display: inline-block;
   margin-bottom: 16px;
@@ -229,10 +223,7 @@ figure {
   color: #1a1919;
   text-decoration: none;
 }
-.link-block:hover {
-  color: #1a1919;
-  border-bottom: 2px solid #1a1919;
-}
+
 
 .wrapper-bottom {
   width: 100%;
@@ -342,6 +333,10 @@ width: fit-content;
 
   .call-to-action {
     font-size: 24px;
+  }
+
+  .img-project-medium {
+    width: 100% !important;
   }
 
   .button {
@@ -459,6 +454,7 @@ width: fit-content;
   .project-text {
     width: 85%;
   }
+
 }
 
 
@@ -514,6 +510,16 @@ width: fit-content;
     max-width: 75%;
     font-size: 50px;
   }
+
+  .link-block:hover {
+    color: #1a1919;
+    border-bottom: 2px solid #1a1919;
+  }
+
+  .button:hover {
+    color: #eee7e1;
+    padding: 20px 120px;
+  }
 }
 
 @media(min-width: 1400px) {
@@ -531,11 +537,11 @@ width: fit-content;
   }
 
   .img-project {
-    width: 100% !important;
+    width: 90% !important;
   }
 
   .project-text {
-    width: 100% !important;
+    width: 90% !important;
   }
 
 }
