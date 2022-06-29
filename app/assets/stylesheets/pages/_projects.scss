@@ -97,36 +97,28 @@
 
 // iPad
 @media(min-width: 768px) {
-  .projects-wrapper {
-    width: 82% !important;
-    margin: 0% 9% !important;
-    padding-top: 5%;
-  }
-
   .content-main {
     padding-bottom: 0%;
     margin-right: 0px;
-    width: 200%;
     padding-top: 35% !important;
   }
 
   .description-projects {
-    max-width: 46%;
     font-size: 12px;
   }
 
   .project-name {
-    font-size: 12vw;
-    }
+  font-size: 12vw;
+  }
 
-    .project-main {
-      margin-top: 30px !important;
-    }
+  .project-main {
+    margin-top: 30px !important;
+  }
 
-    .section-projects {
-      padding-bottom: 37%;
-      margin-top: 35px;
-    }
+  .section-projects {
+    padding-bottom: 37%;
+    margin-top: 35px;
+  }
 }
 
 // Laptops
@@ -157,16 +149,14 @@
     color: #eee7e1;
     font-style: italic;
   }
-    .project-main {
-      margin-top: 30px !important;
-    }
+  .project-main {
+    margin-top: 30px !important;
+  }
 
-    .section-projects {
-      padding-bottom: 37%;
-      margin-top: 35px;
-    }
-
-
+  .section-projects {
+    padding-bottom: 37%;
+    margin-top: 35px;
+  }
 }
 
 // Laptop
