@@ -53,7 +53,25 @@
 .about-description {
   color: #1a1919;
   text-align: justify;
+  margin-bottom: 40%;
 }
+
+.about-header-small {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  line-height: 1.75em;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1a1919;
+}
+
+.contact-me-link:hover {
+  color: #1a1919 !important;
+}
+
 
 // Phone
 @media(max-width: 414px) {
@@ -133,9 +151,6 @@
     font-weight: 300;
   }
 
-  .about-description {
-    margin-bottom: 2vh;
-  }
 }
 
 // iPad large
@@ -159,6 +174,10 @@
   .description-long {
     max-width: 68%;
   }
+
+  .contact-me-link:hover {
+    font-style: italic !important;
+  }
 }
 
 // Laptop larger
@@ -171,12 +190,21 @@
   .profile-img {
     top: 18%;
   }
+
+  .description-long {
+    max-width: 50% ;
+  }
 }
+
 
 @media(min-width: 1280px){
   .about-header {
     margin-top: 0% !important;
     padding-top: 14%;
+  }
+
+  .about-description {
+    margin-bottom: 20%;
   }
 }
 
@@ -188,7 +216,7 @@
     padding-top: 12%;
   }
 
-  .description-long {
-    max-width: 66%;
+  .about-header-small {
+    font-size: 22px !important;
   }
 }
