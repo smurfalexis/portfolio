@@ -6,7 +6,7 @@
   padding-bottom: 2%;
   color: #eee7e1;
   line-height: 1em;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -121,7 +121,7 @@
   }
 }
 
-// Laptops
+// Smaller screens
 @media(min-width: 1020px) {
 
   .projects-wrapper {
@@ -132,17 +132,17 @@
   .content-main {
     padding-bottom: 5%;
     margin-right: 0px;
-    width: 177%;
-    padding-top: 19% !important;
+    width: 95%;
+    padding-top: 86% !important;
   }
 
   .description-projects {
-    max-width: 46%;
     font-size: 12px;
   }
 
   .project-name {
     font-size: 9vw;
+    margin-top: 4%;
     }
 
   .project-name:hover {
@@ -161,62 +161,14 @@
 
 // Laptop
 @media(min-width: 1201px) {
-  .content-main {
-    padding-bottom: 5%;
-    margin-right: 0px;
-    width: 177%;
-    padding-top: 14% !important;
+  .header {
+    margin-top: 14%;
   }
-
-  .description-projects {
-    max-width: 46%;
-    font-size: 14px;
-  }
-
-  .project-name {
-    font-size: 9vw;
-    }
-
-    .project-main {
-      margin-top: 30px !important;
-    }
-
-    .section-projects {
-      padding-bottom: 32%;
-      margin-top: 51px;
-    }
 }
 
 @media(min-width: 1280px){
 
-  .content-main {
-    padding-bottom: 5%;
-    margin-right: 0px;
-    width: 177%;
-    padding-top: 14% !important;
-  }
 
-  .description-projects {
-    max-width: 46%;
-    font-size: 14px;
-  }
-
-  .project-name {
-    font-size: 9vw;
-    }
-
-    .header-small {
-      margin-left: 25px;
-    }
-
-    .project-main {
-      margin-top: 30px !important;
-    }
-
-    .section-projects {
-      padding-bottom: 40%;
-      margin-top: 51px;
-    }
 }
 
 
