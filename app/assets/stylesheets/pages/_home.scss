@@ -68,6 +68,10 @@
 
 }
 
+.home-link:hover {
+  color: #1a1919;
+}
+
 // iPhone
 @media(max-width: 480px) {
   .home-wrapper {
@@ -250,7 +254,6 @@
   }
 
   .home-description {
-    max-width: 61%;
     margin-right: 0px;
     margin-left: 0px;
   }
